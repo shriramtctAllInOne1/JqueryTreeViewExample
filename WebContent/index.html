@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery treetable</title>
+    <link rel="stylesheet" href="CSS/screen.css" media="screen" />
+    <link rel="stylesheet" href="CSS/jquery.treetable.css" />
+    <link rel="stylesheet" href="CSS/jquery.treetable.theme.default.css" />
+     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="Script/jquery-ui.js"></script>
+    <script src="Script/jquery.treetable.js"></script>
+     <script src="Script/Treeview.js"></script>
+     <script src="Script/TreeviewAdmin.js"></script>
+     <script src="Script/jquery.create.js"></script>
+     <script src="Script/jquery.tabletojson.js"></script>
+  </head>
+  <body>
+    <div id="main">
+        <table border="1" >
+        <thread>
+        <tr><th></th><th>Admin</th></tr>
+        <tr>
+        <td>
+        <button id="Admin">DocCenter</button>
+        </td>
+        <td>
+         <table id="example-advanced">
+           <caption>
+          <a href="#" onclick="jQuery('#example-advanced').treetable('expandAll'); return false;">Expand all</a>
+          <a href="#" onclick="jQuery('#example-advanced').treetable('collapseAll'); return false;">Collapse all</a>
+          </caption>
+        <thead>
+          <tr>
+            <th>Document Name</th>
+            <th>Doc Type</th>
+            <th>File Size</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+  </tbody>
+      </table>
+        </td>
+        </tr>
+        </thread>
+        </table>
+   <div>
+   <center>
+	<input type="button" name="Save" id="Save"  class="button" value="Save" /> 
+								
+							</center>
+   </div>
+
+     <div id="hiddendiv"></div>
+    </div>
+	  <div id="mainone">
+        <table border="1" >
+        <thread>
+        <tr><th></th><th>Licencse</th></tr>
+        <tr>
+        <td>
+        <button id="User">DocCenter</button>
+        </td>
+        <td>
+         <table id="example-advanced1">
+           <caption>
+          <a href="#" onclick="jQuery('#example-advanced1').treetable('expandAll'); return false;">Expand all</a>
+          <a href="#" onclick="jQuery('#example-advanced1').treetable('collapseAll'); return false;">Collapse all</a>
+          </caption>
+        <thead>
+          <tr>
+            <th>Document Name</th>
+            <th>Doc Type</th>
+            <th>File Size</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+  </tbody>
+      </table>
+        </td>
+        </tr>
+        </thread>
+        </table>
+   <div>
+   
+    </div>
+   
+     
+  </body>
+</html>
